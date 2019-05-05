@@ -25,6 +25,7 @@ The input spectrum is assumed to be a text file with first column as wavelength 
 
 After you run the script you will see a plot like below (set the cursor in one of the boxes and hit enter).
 Now you can change the element (only one element is possible) and the abundances (seperated with a comma), hit enter and see the updated plot.
+
 ![alt text](doc/Example1.PNG)
 
 ## Getting started
