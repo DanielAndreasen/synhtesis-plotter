@@ -1,0 +1,10 @@
+.sonarlint
+.vscode
+*code-workspace
+.envrc
+dist/
+build/
+venv/
+*.egg-info
+*.out
+*.par
