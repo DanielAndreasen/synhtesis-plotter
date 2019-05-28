@@ -5,6 +5,6 @@
 dist/
 build/
 venv/
-*.egg-info
+*.egg-info/
 *.out
 *.par
