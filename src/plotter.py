@@ -72,7 +72,7 @@ class Plotter:
                 self.number = text
             else:
                 raise ValueError('Element %s not found in the periodic table' % text)
-                    
+
         self.opt['abundances1'] = '{}  {}'.format(self.number, "  ".join(self.abundances))
         m = MOOG(verbose=self.verbose, mode='synth', **self.opt)
         mo = m.output
