@@ -1,9 +1,10 @@
 import argparse
-import numpy as np
+
 import matplotlib.pyplot as plt
-from matplotlib.widgets import TextBox, Button
+import numpy as np
 import periodictable as pt
-from moogly import MOOG, MOOGSynthOutput
+from matplotlib.widgets import TextBox
+from moogly import MOOG
 
 elements1 = {str(e).lower(): e.number for e in pt.elements}
 elements2 = {e.name: e.number for e in pt.elements}
